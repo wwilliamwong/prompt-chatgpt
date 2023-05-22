@@ -1,11 +1,11 @@
-import "@styles/global.css";
+import "@styles/globals.css";
 
 export const metadata = {
   title: "Promptopia",
   description: "Discove & Share AI Prompts",
 };
 
-const RootLayout = () => {
+const RootLayout = ({ children }) => {
   return (
     <html lang="en">
       <body>
